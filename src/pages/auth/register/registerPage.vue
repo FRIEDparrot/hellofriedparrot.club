@@ -4,7 +4,11 @@
       <LeftSidebarWelcome></LeftSidebarWelcome>
     </template>
     <template v-slot:main-content>
-      <navbar_welcome :showRightSidebarToggle="false" :showLogo="false">
+      <navbar_welcome
+        :showRightSidebarToggle="false"
+        :showLeftSidebarToggle="false"
+        :alwaysShowLogo="true"
+      >
         <template v-slot:navbarPrepend>
           <HomeBtn></HomeBtn>
         </template>

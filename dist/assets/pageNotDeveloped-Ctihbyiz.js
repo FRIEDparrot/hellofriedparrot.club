@@ -1,0 +1,1 @@
+import{_ as a,c as r,o as s,b as o,t}from"./index-DA8DpHHr.js";const l={},n={class:"container"};function p(e,c){return s(),r("div",n,[o("h1",null,t(e.$t("errorPage.pageNotDeveloped.title")),1),o("p",null,t(e.$t("errorPage.pageNotDeveloped.tip")),1),o("p",null,t(e.$t("errorPage.pageNotDeveloped.message")),1)])}const i=a(l,[["render",p]]);export{i as default};

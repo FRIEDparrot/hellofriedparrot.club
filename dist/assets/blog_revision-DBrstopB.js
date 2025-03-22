@@ -1,1 +1,0 @@
-import{d as e,_ as o,c as s,o as n}from"./index-DhQyue9E.js";const t=e({name:"BlogRevision",components:{},props:{},data(){}}),c={class:"page-blog-revision"};function a(r,i,p,_,l,d){return n(),s("div",c," The Blog Revision is under construction. Please come back later. 当前不支持博客审核拒绝后的修改和重新发布功能，我们将会在后续版本中尽快更新。 ")}const f=o(t,[["render",a]]);export{f as default};

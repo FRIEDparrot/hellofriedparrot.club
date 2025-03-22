@@ -16,7 +16,6 @@
     >
       <img src="@imgs/ui/sidebar-left.svg" alt="left-sidebar" height="50px" />
     </v-btn>
-    <slot name="navbarPrepend"></slot>
 
     <div
       v-if="showLogo"
@@ -27,6 +26,8 @@
         <parrotLogoBtn style="height: 100%" />
       </div>
     </div>
+
+    <slot name="navbarPrepend"></slot>
 
     <div class="elem-display-lessThanSuperWidth" id="nav-title">
       <span>{{ $t('g.friedParrotClub') }}</span>
