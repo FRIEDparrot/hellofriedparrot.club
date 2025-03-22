@@ -1,0 +1,26 @@
+.alert{
+    display: block;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: var(--ol-border-radius);
+    border: 1px solid var(--ol-foreground);
+    background-color: rgba(var(--ol-foreground-rgb),0.25);
+    margin: 1em 0;
+}
+
+.alert--info, .alert--tip {
+    border: 1px solid var(--ol-info);
+    background-color: rgba(var(--ol-info-rgb),0.25);
+}
+.alert--warning{
+    border: 1px solid var(--ol-warning);
+    background-color: rgba(var(--ol-warning-rgb),0.25);
+}
+.alert--error{
+    border: 1px solid var(--ol-error);
+    background-color: rgba(var(--ol-error-rgb),0.25);
+}
+.alert--success{
+    border: 1px solid var(--ol-success);
+    background-color: rgba(var(--ol-success-rgb),0.25);
+}

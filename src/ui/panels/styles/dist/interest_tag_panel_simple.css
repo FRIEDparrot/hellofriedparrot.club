@@ -1,0 +1,51 @@
+.interesting-tag-panel-simple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.interesting-tag-panel-simple .interested-tags,
+.interesting-tag-panel-simple .recommended-tags {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 12px;
+  margin-bottom: 10px;
+}
+.interesting-tag-panel-simple .interested-tags .interested-tag-container,
+.interesting-tag-panel-simple .recommended-tags .interested-tag-container {
+  max-width: 70vw;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  overflow: hidden;
+}
+.interesting-tag-panel-simple .interested-tag-header-container,
+.interesting-tag-panel-simple .recommended-tag-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+.interesting-tag-panel-simple .interest-tag {
+  font-size: 0.9rem;
+}
+.interesting-tag-panel-simple .interest-tag a {
+  text-decoration: none;
+}
+.interesting-tag-panel-simple .manager-tag-add-button-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  max-width: 100%;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.interesting-tag-panel-simple .manager-tag-add-button-container .manager-tag-add-button {
+  vertical-align: center;
+}

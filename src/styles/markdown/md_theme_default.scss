@@ -1,0 +1,199 @@
+@import '@/styles/base.css';
+@import '@/styles/themes/github-dark.css';
+/* TODO: remove base.css import, and use it as costomized style */
+
+// @import url(http://fonts.googleapis.com/css?family=Merriweather:300italic,300);
+
+/** 
+*   This css  file is the default theme style for markdown rendering 
+*   it should be imported in all file  that contains markdown content 
+*/
+/** to avoid render extra display text
+for math equations in markdown */
+
+$code-line-height: 1.5em;
+$code-block-top-radius: 5px;
+$code-fold-transition-duration: 0.4s;
+$code-block-max-height: 3615px;
+$code-line-number-width: 35px;
+$code-line-number-padding-top: 16px;
+
+.markdown-body {
+    .katex-html {
+        display: none;
+    }
+
+    p {
+        margin-left: 10px;
+        text-indent: 2em;
+    }
+
+    /* use variables here */
+    .md-heading a {
+        color: var(--markdown-heading-color);
+
+        &:hover {
+            color: var(--markdown-heading-hover);
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Public Sans', sans-serif;
+            font-optical-sizing: auto;
+            margin-left: 0px;
+            margin-bottom: 10px;
+            &:hover {
+                &::before {
+                    content: '#';
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-right: 4px;
+                }
+            }
+        }
+        h1 {
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    }
+
+    ul,
+    ol {
+        padding: 2px;
+        margin: 10px 0px;
+        margin-left: 25px;
+        line-height: 1.5em;
+        text-align: justify;
+    }
+
+    // outer `pre` block for code block
+    pre {
+        max-width: 100%;
+        background-color: #323233;
+        border-radius: 0px;
+        line-height: $code-line-height;
+        position: relative;
+        overflow-x: auto;
+        margin: 15px 10px;
+        border-radius: $code-block-top-radius $code-block-top-radius 0px 0px;
+        > code {
+            display: flex;
+            flex-direction: column;
+            .hljs {
+                display: block;
+                width: 100%;
+                padding-left: 1.5em; /** add padding to the left of code block */
+            }
+            .md-code-title {
+                width: 100%;
+                height: $code-line-number-width;
+                opacity: 1;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                position: relative;
+
+                .md-code-title-content {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    vertical-align: center;
+                    .md-code-fold-btn {
+                        cursor: pointer;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: $code-line-number-width; // same as line number width
+                        height: 100%;
+                        &:hover {
+                            background-color: #ffffff4b;
+                        }
+                        // fold transition
+                    }
+                    .md-code-lang-icon,
+                    .md-code-language {
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+                .md-code-lang-icon {
+                    margin-left: 10px;
+                    margin-right: 15px;
+                    margin-bottom: 2px;
+                }
+
+                .md-code-copy-btn {
+                    height: 100%;
+                    position: absolute;
+                    right: 0px;
+                    width: 35px;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+
+            .md-code-fold-icon {
+                transform: rotate(0deg);
+                transition: transform 0.3s ease-in-out;
+            }
+
+            .code-block-wrapper {
+                display: flex;
+                flex-direction: row;
+                overflow-y: auto;
+                max-height: $code-block-max-height;
+
+                transition: max-height $code-fold-transition-duration ease-in;
+                // margin-top: 0px;
+                .line-numbers-block {
+                    padding-top: $code-line-number-padding-top;
+                    display: flex;
+                    min-width: 37px;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: #323233;
+                    opacity: 0.9;
+                    .line-number {
+                        line-height: $code-line-height;
+                        color: #cebebe;
+                    }
+                }
+                // inner `code` block for code block
+                pre {
+                    border-radius: 0px;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0px;
+                }
+            }
+
+            &.collapsed {
+                .md-code-fold-icon {
+                    transform: rotate(-90deg);
+                    transition: transform 0.3s ease-in-out;
+                }
+
+                .code-block-wrapper {
+                    max-height: 0px;
+                    transition: max-height $code-fold-transition-duration
+                        ease-out;
+                }
+            }
+        }
+    }
+
+    .md-code-copy-btn:hover {
+        cursor: pointer;
+        background-color: #ffffff4b;
+    }
+}

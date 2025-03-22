@@ -1,0 +1,20 @@
+{
+    "source": {
+        "include": ["src/api", "src/hooks"],
+        "includePattern": ".+\\.ts$",
+        "exclude": ["node_modules", "dist"],
+        "excludePattern": "node_modules/|docs/|dist/|.+/dist/.+"
+    },
+    "plugins": [
+        "./node_modules/jsdoc-plugin-typescript",
+        "./node_modules/jsdoc-vuejs"
+    ],
+    "opts": {
+        "destination": "docs/api",
+        "recurse": true,
+        "template": "templates/default"
+    },
+    "typescript": {
+        "moduleRoot": "src"
+    }
+}

@@ -1,0 +1,171 @@
+@import '@/styles/base.css';
+@import '@/styles/themes/github-dark.css';
+/* TODO: remove base.css import, and use it as costomized style */
+/** 
+*   This css  file is the default theme style for markdown rendering 
+*   it should be imported in all file  that contains markdown content 
+*/
+/** to avoid render extra display text
+for math equations in markdown */
+.markdown-body {
+  /* use variables here */
+}
+.markdown-body .katex-html {
+  display: none;
+}
+.markdown-body p {
+  margin-left: 10px;
+  text-indent: 2em;
+}
+.markdown-body .md-heading a {
+  color: var(--markdown-heading-color);
+}
+.markdown-body .md-heading a:hover {
+  color: var(--markdown-heading-hover);
+  text-decoration: none;
+  margin-left: 20px;
+}
+.markdown-body .md-heading a h1,
+.markdown-body .md-heading a h2,
+.markdown-body .md-heading a h3,
+.markdown-body .md-heading a h4,
+.markdown-body .md-heading a h5,
+.markdown-body .md-heading a h6 {
+  font-family: "Public Sans", sans-serif;
+  font-optical-sizing: auto;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.markdown-body .md-heading a h1:hover::before,
+.markdown-body .md-heading a h2:hover::before,
+.markdown-body .md-heading a h3:hover::before,
+.markdown-body .md-heading a h4:hover::before,
+.markdown-body .md-heading a h5:hover::before,
+.markdown-body .md-heading a h6:hover::before {
+  content: "#";
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+}
+.markdown-body .md-heading a h1 {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.markdown-body ul,
+.markdown-body ol {
+  padding: 2px;
+  margin: 10px 0px;
+  margin-left: 25px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+.markdown-body pre {
+  max-width: 100%;
+  background-color: #323233;
+  border-radius: 0px;
+  line-height: 1.5em;
+  position: relative;
+  overflow-x: auto;
+  margin: 15px 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+.markdown-body pre > code {
+  display: flex;
+  flex-direction: column;
+}
+.markdown-body pre > code .hljs {
+  display: block;
+  width: 100%;
+  padding-left: 1.5em;
+  /** add padding to the left of code block */
+}
+.markdown-body pre > code .md-code-title {
+  width: 100%;
+  height: 35px;
+  opacity: 1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.markdown-body pre > code .md-code-title .md-code-title-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+}
+.markdown-body pre > code .md-code-title .md-code-title-content .md-code-fold-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 100%;
+}
+.markdown-body pre > code .md-code-title .md-code-title-content .md-code-fold-btn:hover {
+  background-color: #ffffff4b;
+}
+.markdown-body pre > code .md-code-title .md-code-title-content .md-code-lang-icon,
+.markdown-body pre > code .md-code-title .md-code-title-content .md-code-language {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.markdown-body pre > code .md-code-title .md-code-lang-icon {
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-bottom: 2px;
+}
+.markdown-body pre > code .md-code-title .md-code-copy-btn {
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  width: 35px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.markdown-body pre > code .md-code-fold-icon {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}
+.markdown-body pre > code .code-block-wrapper {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+  max-height: 3615px;
+  transition: max-height 0.4s ease-in;
+}
+.markdown-body pre > code .code-block-wrapper .line-numbers-block {
+  padding-top: 16px;
+  display: flex;
+  min-width: 37px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #323233;
+  opacity: 0.9;
+}
+.markdown-body pre > code .code-block-wrapper .line-numbers-block .line-number {
+  line-height: 1.5em;
+  color: #cebebe;
+}
+.markdown-body pre > code .code-block-wrapper pre {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+.markdown-body pre > code.collapsed .md-code-fold-icon {
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease-in-out;
+}
+.markdown-body pre > code.collapsed .code-block-wrapper {
+  max-height: 0px;
+  transition: max-height 0.4s ease-out;
+}
+.markdown-body .md-code-copy-btn:hover {
+  cursor: pointer;
+  background-color: #ffffff4b;
+}

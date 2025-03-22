@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* .elem-display-minimwidth {
+    display: block;
+} */
+.elem-display-smallwidth {
+    display: block;
+}
+
+.elem-display-lessThanMaxWidth {
+    display: block;
+}
+
+.elem-display-lessThanSuperWidth {
+    display: block;
+}
+
+/* max  width  900px display item style */
+.elem-display-middlewidth,
+.elem-display-maxwidth,
+.elem-display-superMaxWidth {
+    display: none;
+}
+
+/* medium width 768px display item style */
+@media (min-width: 768px) {
+    .elem-display-smallwidth {
+        display: none;
+    }
+    .elem-display-middlewidth {
+        display: block;
+    }
+}
+
+/* max  width  900px display item style */
+@media (min-width: 900px) {
+    .elem-display-maxwidth {
+        display: block;
+    }
+    .elem-display-lessThanMaxWidth {
+        display: none;
+    }
+}
+
+/* super max width 1200px display item style */
+@media (min-width: 1200px) {
+    .elem-display-superMaxWidth {
+        display: block;
+    }
+    .elem-display-lessThanSuperWidth {
+        display: none;
+    }
+}

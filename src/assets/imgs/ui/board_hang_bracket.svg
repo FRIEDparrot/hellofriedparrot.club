@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="73.734 95.678 351.655 183.121">
+  <defs>
+    <radialGradient gradientUnits="userSpaceOnUse" cx="226" cy="125.333" r="22" id="gradient-1">
+      <stop offset="0" style="stop-color: rgb(3.1373% 3.1373% 3.1373%)"/>
+      <stop offset="1" style="stop-color: rgb(1.8824% 1.8824% 1.8824%)"/>
+    </radialGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="226" y1="103.333" x2="226" y2="147.333" id="gradient-0">
+      <stop offset="0" style="stop-color: rgb(12.157% 54.118% 36.078%)"/>
+      <stop offset="1" style="stop-color: rgb(0% 33.663% 17.664%)"/>
+    </linearGradient>
+  </defs>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 12px;" d="M 250 140 L 80 270"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 12px;" x1="250" y1="140" x2="420" y2="270"/>
+  <circle style="fill-rule: nonzero; fill: url(&quot;#gradient-1&quot;); stroke-miterlimit: 6.37; stroke: url(&quot;#gradient-0&quot;); stroke-width: 11.9028px;" transform="matrix(1.646145, 0, 0, 1.546378, -122.635959, -51.57818)" cx="226.369" cy="123.888" r="17.617"/>
+</svg>

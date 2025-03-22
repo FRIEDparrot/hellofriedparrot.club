@@ -1,0 +1,39 @@
+{
+    "i18n-ally.localesPaths": ["src/locales/packages"],
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.sortKeys": true,
+    "i18n-ally.enabledParsers": ["json"],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.enable": true,
+    "eslint.enable": true,
+    "compile-hero.disable-compile-files-on-did-save-code": false,
+    "background.enabled": true,
+    "background.editor": {
+        "useFront": true
+    },
+    "background.fullscreen": {
+        "useFront": true,
+        "position": "center",
+        "opacity": 0.2,
+        "styles": [{}, {}, {}],
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF9W9vwDNn5X7zAVeDHXgUKo0nBy0pqCaDcw&s"
+        ],
+        "interval": 0,
+        "random": false
+    },
+    "background.sidebar": {},
+    "background.panel": {}
+}

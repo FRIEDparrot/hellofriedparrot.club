@@ -1,0 +1,124 @@
+.new-blog-page {
+    overflow: auto;
+}
+
+.new-blog-page-main {
+    margin-top: 65px;
+    min-height: calc(100vh - 65px);
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-view-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.blog-view-container .blog-content-input-left {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-view-container .blog-content-preview-right {
+    display: flex;
+    width: 55%;
+    max-height: 100%;
+    padding: 0px 10px;
+    margin-bottom: 12px;
+    padding-left: 0px;
+}
+
+.blog-input-title {
+    width: 100%;
+    padding: 5px 5px;
+    margin-right: 0px;
+}
+
+.blog-input-content {
+    padding: 0px 5px;
+    margin-bottom: 8px;
+}
+
+.blog-content-markdown-display-card {
+    width: 100%;
+    min-height: 100%;
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px;
+    margin: 5px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(--background-color-darker);
+    border: 1px solid var(--secondary-color);
+}
+
+.blog-content-markdown-display-card-title {
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 0px 25px;
+}
+
+.blog-view-footer {
+    display: flex;
+    margin: 1px 5px;
+}
+
+.blog-view-footer div {
+    margin: 0px 10px;
+}
+
+.blog-content-markdown-container {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 5px;
+    margin: 10px 15px;
+    margin-top: 0px;
+    white-space: normal;
+}
+
+@media (max-width: 768px) {
+    .blog-view-container {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .blog-view-container .blog-content-input-left {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .blog-view-container .blog-content-preview-right {
+        display: flex;
+        width: 100%;
+        height: auto;
+
+        margin-left: 5px;
+    }
+    .blog-view-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .blog-view-footer div {
+        width: 80%;
+        padding: 4px 10px;
+    }
+    .blog-content-markdown-display-card {
+        max-height: 800px;
+    }
+}

@@ -1,0 +1,1 @@
+import{_ as t,c as o,o as s,b as n}from"./index-CqgRRlZL.js";const c={},r={class:"ip-restriction-page console-content-page"};function i(a,e){return s(),o("div",r,e[0]||(e[0]=[n("h1",null,"IP Restriction",-1)]))}const l=t(c,[["render",i]]);export{l as default};

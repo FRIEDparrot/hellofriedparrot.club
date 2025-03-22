@@ -1,0 +1,553 @@
+{
+  "blog": {
+    "authotInterestTagTitle": "作者兴趣标签",
+    "blogsNum": "博客",
+    "commentCount": "评论",
+    "commentsTitleTemp": "这里是临时博客评论区， 目前博客评论不会进行审核， 在评论系统实际完善之后，临时评论区部分将会删除， 请自觉注意言论",
+    "copyLink": "复制链接",
+    "copyLinkSuccess": "文章链接已复制到剪切板",
+    "edit_draft": "编辑草稿",
+    "error": {
+      "addHistoryRecord": "历史记录保存错误",
+      "loadAuthorProfile": "作者信息加载错误",
+      "loadBlogData": "博客数据加载错误",
+      "noAuthorInfo": "无法获取作者信息"
+    },
+    "featureArticle": "设置文章为精选",
+    "featureArticleSuccess": "精选文章成功",
+    "followersNum": "粉丝",
+    "followsNum": "关注",
+    "lastModifyTime": "最近更新",
+    "noTagLabel": "没有标签",
+    "outline": "目录",
+    "publishTime": "发布时间",
+    "readCount": "阅读",
+    "starCount": "收藏",
+    "unFeatureArticle": "取消精选该文章",
+    "unfeatureArticleSuccess": "取消精选文章成功"
+  },
+  "blogs": {
+    "create": {
+      "abstractPlaceholder": "填写博客摘要,  200 字以内",
+      "addTagFailed": "添加标签失败",
+      "addTagSucceed": "添加标签成功",
+      "contentEmptyPlaceholder": "博客的 markdown 预览会展示在这里哦",
+      "contentPlaceholder": "博客支持 Markdown 格式书写， 同时支持嵌入 html 标签， 通过下方的标签栏可添加标签 (对表格, 列表等的 html 格式支持不佳)",
+      "fetchTagInfoFailed": "标签信息获取失败",
+      "hidePreview": "隐藏预览",
+      "publishBtn": "发布博客",
+      "saveDraftBtn": "保存为草稿 (ctrl + S)",
+      "saveFailed": "保存博客草稿失败",
+      "saveSuccess": "保存博客草稿成功",
+      "showPreview": "显示预览",
+      "tagLimitReached": "一篇文章最多可创建 10 个标签",
+      "tagRepeated": "该标签已经存在",
+      "tagsPlaceholder": "添加标签",
+      "theme": {
+        "default": "默认主题"
+      },
+      "title": "创建博客",
+      "titlePlaceholder": "给你的博客一个标题吧"
+    }
+  },
+  "commmon": {
+    "brief-iterator-list": {
+      "jumping-page": "转到页码",
+      "page-info": "第 { page } / { pageCount } 页"
+    },
+    "briefDataIterator": {
+      "status": {
+        "published": "已发布",
+        "rejected": "审核未通过",
+        "reviewing": "审核中"
+      }
+    }
+  },
+  "common": {
+    "briefDataIterator": {
+      "noDataText": "这里空空如也~"
+    },
+    "confirmDialog": {
+      "confirmToAccept": "确认接受请求",
+      "confirmToReject": "确认拒绝请求",
+      "reasonForAccept": "请填写原因",
+      "reasonForReject": "拒绝原因",
+      "reasonRequired": "请填写原因",
+      "subtitle": "按 Enter 键确认",
+      "title": "对话框标题"
+    },
+    "cookiePrompt": {
+      "buttons": {
+        "acceptAll": "接受所有 Cookie",
+        "acceptNecessary": "仅接受必要的 Cookie",
+        "declineAll": "拒绝所有 Cookie"
+      },
+      "getInfo": "以获取详细信息",
+      "learnMore": "您可以阅读我们的",
+      "loginFirst": "请先登录以设置您的 Cookie 偏好",
+      "message": "该网站使用 Cookie 保存您的部分信息来提升您的用户体验并提供更好的服务. 继续使用该网站代表您同意我们的 Cookie 政策. 同时您具有随时拒绝采用 Cookie 存储您个人信息的权利。",
+      "title": "Cookie 服务"
+    },
+    "copy_code": {
+      "copied": "已复制"
+    },
+    "dataTableServer": {
+      "acceptSuccess": "所有选中项已接受",
+      "actionAt": "提交时间",
+      "actionByid": "用户ID",
+      "actionDesc": "操作描述",
+      "actionEmail": "邮箱",
+      "actionType": "操作类型",
+      "actionUserName": "用户名",
+      "actions": "操作",
+      "email": "邮箱",
+      "id": "ID",
+      "itemsPerPageText": "每页显示",
+      "linkOfReview": "审核内容链接",
+      "noDataText": "没有数据",
+      "noItemSelected": "您没有选择任何项",
+      "refresh": "刷新",
+      "rejectSuccess": "所有选中项已拒绝",
+      "replyLanguage": "通知语言偏好",
+      "searchByColumns": "按列搜索",
+      "sendEmail": "审核完毕后向用户发送邮件通知",
+      "sendMessage": "审核完毕后向用户发送站内消息通知",
+      "status": "状态",
+      "userName": "用户名",
+      "viewReviewLink": "点击查看"
+    },
+    "detailedIteratorList": {
+      "nodDataText": "目前没有任何文章哦 ",
+      "timeText": "最近更新 : "
+    },
+    "interestTagsGroup": {
+      "chooseTag": "选择兴趣标签"
+    },
+    "newTagPrompt": {
+      "confirmAddTag": "确认添加",
+      "errorAddTag": "添加标签失败",
+      "successAddTag": "已成功添加标签",
+      "tagKey": "标签关键字(唯一标识符)",
+      "tagTranslationEn": "标签翻译(英文)",
+      "tagTranslationZh": "标签翻译 (中文)",
+      "title": "添加标签到数据库"
+    },
+    "post_blog_overlay": {
+      "bannerUrl": "封面图片",
+      "blogTitle": "文章标题",
+      "noTagText": "当前文章没有标签",
+      "postBlog": "发布博客",
+      "previewOnlyImageSupport": "当前仅支持封面图片预览",
+      "previewSelectLabel": "预览类型",
+      "suppoortBannerUrl": "博客文章支持使用外部 url 作为封面",
+      "tagChooserLabel": "文章标签"
+    },
+    "post_card": {
+      "deleteDraftConfirmSubtitle": "删除草稿后， 该草稿将永久删除，无法恢复",
+      "deleteDraftConfirmTitle": "确认删除该草稿?",
+      "deleteDraftSuccess": "删除草稿成功",
+      "draftLimitation": "草稿上限",
+      "drafts": "草稿箱",
+      "history": "历史",
+      "historyLimitation": "历史记录",
+      "lastViewedTime": "上次查看",
+      "postBlogLimitation": "博客上限",
+      "postFolder": "博客",
+      "starFolder": "收藏夹"
+    },
+    "simpleTagPanel": {
+      "interestedTags": "兴趣标签",
+      "recommendedTags": "推荐标签"
+    },
+    "tag_overlay": {
+      "card_title_add": "添加标签",
+      "card_title_delete": "删除标签",
+      "current_tags": "当前标签",
+      "delete_success": "标签已成功移除, 部分界面更新可能不及时，需刷新生效",
+      "en": "英文",
+      "key": "唯一关键字",
+      "max_tag_count_error": "最多可添加 { count } 个标签",
+      "noDataText": "没有数据",
+      "operation": "操作",
+      "repeat_tag_error": "标签不可被重复添加",
+      "resetBtn": "重置选项",
+      "selected_tags": "已选删除标签",
+      "title": "选择标签",
+      "zh": "中文"
+    },
+    "ui": {
+      "blog_iterator_main": {
+        "featuredBannerText": "精选",
+        "noTagsText": "没有标签",
+        "readTime": {
+          "lessThan1Minute": "< 1 分钟",
+          "readTimeText": "{minutes} 分钟"
+        }
+      }
+    },
+    "userPanelMenu": {
+      "logoutError": "退出登录失败"
+    }
+  },
+  "errorPage": {
+    "pageNotDeveloped": {
+      "message": "该页面仍在建设中，功能尚未开放，敬请期待！",
+      "tip": "抱歉，您访问的页面目前尚在开发中。",
+      "title": "界面正在开发中"
+    }
+  },
+  "floatingAlert": {
+    "error": "错误",
+    "info": "提示",
+    "success": "成功",
+    "warning": "警告"
+  },
+  "footerbar": {
+    "common": {
+      "about": {
+        "aboutWebsite": "关于网站",
+        "contactUs": "联系我们",
+        "cookieSettings": "Cookie 设置",
+        "update": "网站更新"
+      },
+      "copyright": "©版权所有 FriedParrot 2024",
+      "reserveRights": "保留所有权利",
+      "rules": {
+        "cookiePolicy": "Cookie 政策",
+        "disclaimer": "免责声明",
+        "privacyPolicy": "隐私政策",
+        "termOfService": "服务条款"
+      },
+      "support": {
+        "faq": "常见问题",
+        "feedback": "反馈建议",
+        "help": "帮助中心",
+        "report": "违规举报"
+      },
+      "university": "西北工业大学",
+      "webColumns": {
+        "blackList": "黑名单公示",
+        "historyNotice": "历史公告",
+        "newlyProducts": "最新产品",
+        "news": "最新消息"
+      }
+    }
+  },
+  "g": {
+    "JsonParseError": "JSON 解析错误",
+    "ServerUnknownError": "服务器未知错误，请稍后重试或联系管理员",
+    "ServerdownError": "服务器关闭或未响应",
+    "Support": "获取支持",
+    "UnknownError": "未知错误",
+    "about": "关于",
+    "aboutUs": "关于我们",
+    "accept": "接受",
+    "acceptAll": "接受所有项",
+    "acceptSelected": "接受选中项",
+    "accountProfile": "帐户资料",
+    "addNewTag": "添加标签",
+    "addNewTagToDDatabase": "在数据库中创建新标签",
+    "and": "和",
+    "cancel": "取消",
+    "changeAvatar": "更换头像",
+    "changeCover": "更换封面",
+    "changePassword": "修改密码",
+    "close": "关闭",
+    "columns": {
+      "blogs": "博客",
+      "forums": "论坛",
+      "knowledges": "学科基础知识",
+      "life": "生活杂谈",
+      "other": "其他版块",
+      "products": "产品",
+      "projects": "项目",
+      "resources": "资源",
+      "space": "空间",
+      "tech": "技术分享"
+    },
+    "comment": "评论",
+    "confirm": "确认",
+    "console": "控制面板",
+    "contact": "联系我们",
+    "cookiePolicy": "Cookie 政策",
+    "decline": "拒绝",
+    "declineAll": "拒绝所有项",
+    "declineSelected": "拒绝选中项",
+    "delete": "删除",
+    "deleteAccount": "注销账号",
+    "deleteAvatar": "删除头像",
+    "deleteCover": "删除封面",
+    "deleteTag": "删除标签",
+    "deleteTagFromDDatabase": "从数据库中删除标签",
+    "edit": "编辑",
+    "editProfile": "编辑资料",
+    "error": "错误",
+    "follow": "关注",
+    "followed": "已关注",
+    "followers": "粉丝",
+    "followersNumber": "粉丝数",
+    "following": "正在关注",
+    "followsNumber": "关注数",
+    "friedParrotClub": "Fried Parrot 资源分享站",
+    "guestUser": "陌生人",
+    "history": "历史浏览",
+    "identity": {
+      "SVIP": "SVIP",
+      "VIP": "VIP",
+      "admin": "创建者",
+      "guest": "访客",
+      "manager": "管理员",
+      "super_manager": "超级管理员",
+      "user": "正式用户"
+    },
+    "info": "提示",
+    "login": "登录",
+    "logout": "退出登录",
+    "myFollowers": "我的粉丝",
+    "myFollows": "我的关注",
+    "myHomePage": "个人主页",
+    "myIntersetTags": "我的兴趣标签",
+    "myNotifications": "当前通知",
+    "myPosts": "文章总数",
+    "myRecommendedTags": "为您推荐",
+    "myStars": "我的收藏",
+    "notDeveloped": "该功能尚未开发完毕, 暂时无法使用, 敬请期待!",
+    "notifications": "通知",
+    "outline": "目录",
+    "postBlog": "发布博客",
+    "preferences": "偏好设置",
+    "privacyPolicy": "隐私政策",
+    "profile": "个人资料",
+    "publish": "发布",
+    "qqGroup": "网站技术交流群: 180029549",
+    "register": "注册",
+    "reject": "拒绝",
+    "rules": "规则和隐私",
+    "save": "保存",
+    "search": "搜索",
+    "searchResult": "搜索结果",
+    "selectAll": "全选",
+    "selectNone": "取消全选",
+    "service": "服务",
+    "star": "收藏",
+    "submit": "提交",
+    "submitTime": "提交时间",
+    "success": "成功",
+    "support": "获取支持",
+    "tag": {
+      "knowledges": "学科知识"
+    },
+    "tags": "文章标签",
+    "termOfService": "服务条款",
+    "unfollow": "取消关注",
+    "unstar": "取消收藏",
+    "uploadAvatar": "上传头像",
+    "uploadCover": "上传封面",
+    "warning": "警告",
+    "webColumns": "网站专栏",
+    "wechatAccount": "关注微信公众号：FriedParrot 资源分享站"
+  },
+  "home": {
+    "main_view": {
+      "search_not_supported": "当前暂时不支持搜索功能",
+      "search_placeholder": "搜索本站 (ctrl + K)",
+      "search_tips": "搜索博客，资源，以及开源工程 :",
+      "workspace": "我的工作台"
+    }
+  },
+  "index": {
+    "createAccountTip": "登录账号后，您将能够享受收藏、发布博客、关注他人等更多功能",
+    "guest_user": "访客用户"
+  },
+  "login": {
+    "CancelBtn": "取消",
+    "Captcha": "验证码",
+    "CaptchaTooltip": "如果没有收到验证码, 请检查您的垃圾邮件文件夹, 点击重新发送或联系管理员处理",
+    "Email": "邮箱",
+    "LoginBtn": "登录",
+    "NotRegistered": "没有账号?",
+    "Password": "密码",
+    "SendCodeBtn": "发送",
+    "Signup": "注册账户",
+    "Username": "用户名/邮箱",
+    "byEmail": "验证码登录",
+    "byUsername": "密码登录",
+    "warns": {
+      "LoginFailed": "登录失败",
+      "LoginSucceed": "登录成功, 正在跳转到个人主页...",
+      "UnknownError": "服务器未知错误, 请联系管理员处理",
+      "emailFormat": "请输入正确的邮箱格式",
+      "emailNotValid": "请输入正确的邮箱",
+      "emailSendSucceed": "验证码已发送至您的邮箱, 请到您的邮箱或垃圾邮件文件夹查看",
+      "required": "该项为必填项",
+      "usernameFormat": "用户名只能包含字母、数字、下划线和中文"
+    }
+  },
+  "panels": {
+    "profile": {
+      "accountSettings": "账号管理",
+      "comments": "我的评论",
+      "console": "控制面板",
+      "contentCenter": "内容管理",
+      "createNew": "新建",
+      "creations": "新建作品",
+      "dashboard": "常用功能",
+      "editProfile": "编辑资料",
+      "ipRestriction": "IP 限制",
+      "newBlog": "写博客",
+      "newColumn": "创建专栏",
+      "newProject": "创建项目",
+      "newResource": "上传资源",
+      "passwordSettings": "密码和安全",
+      "reviews": "审核列表",
+      "serverManagement": "服务器监控",
+      "userManagement": "用户管理",
+      "violationActions": "违规处理"
+    }
+  },
+  "postCard": {
+    "confirmDeleteArticlesSubtitle": "删除该文章后， 将无法恢复"
+  },
+  "post_blog_overlay": {
+    "errors": {
+      "banner_upload_not_supported": "暂时不支持上传图片封面",
+      "draft_not_found": "没有找到该草稿"
+    },
+    "publish_success_message": "博客发布提交成功 (用户博客请耐心等待审核)"
+  },
+  "register": {
+    "agreeTerms": "我已阅读并同意本网站的服务条款和隐私政策",
+    "cancelBtn": "取消",
+    "captcha": "验证码",
+    "captchaPlaceholder": "6位验证码",
+    "captchaTooltip": "如果没有收到验证码, 请检查您的垃圾邮件文件夹, 点击重新发送或联系管理员处理",
+    "career": "职业",
+    "careerPlaceholder": "例如 '学生' ",
+    "confirmPassword": "确认密码",
+    "confirmPasswordPlaceholder": "必须与密码保持一致",
+    "country": "国家",
+    "countryPlaceholder": "使用国家名或简称搜索, 例如: 'CHN'",
+    "createAccount": "创建账户",
+    "email": "邮箱",
+    "emailPlaceholder": "你的邮箱地址",
+    "haveAccount": "已有账号?",
+    "id": "ID",
+    "joinMsg": "加入 hellofriedparrot.club",
+    "login": "登录",
+    "password": "密码",
+    "passwordPlaceholder": "8-25位, 必须包含字母、数字和特殊字符",
+    "readTerms": "为了确保网站的安全，我们将由管理员详细审核每个帐户提交的注册信息以确保安全。在本网站创建帐户即表示您同意我们的",
+    "reason": "注册原因",
+    "reasonPlaceholder": "您提供的信息将由管理员审核，详细的原因有助于您通过审核",
+    "receiveAds": "我希望通过邮件接收该网站的最新消息",
+    "sendCodeBtn": "发送验证码",
+    "submitBtn": "提交",
+    "username": "用户名",
+    "usernamePlaceholder": "字母, 数字, 下划线, 中文, 2-20位",
+    "warns": {
+      "UnknownError": "服务器未知错误, 请联系管理员处理",
+      "agreeTerms": "请先同意网站服务条款和隐私政策",
+      "captcha": "验证码必须是 6 位数字或字母",
+      "email": "无效的邮箱地址",
+      "emailSendSucceed": "验证码已发送至您的邮箱, 请到您的邮箱或垃圾邮件文件夹查看",
+      "password": {
+        "confirm": "两次输入的密码不一致",
+        "forbidden": "密码不能包含 {forbidden_char} 字符",
+        "format_length": "密码长度必须在 8-25 位之间",
+        "format_letter": "密码必须包含至少一个字母",
+        "format_number": "密码必须包含至少一个数字",
+        "format_special": "密码必须包含至少一个特殊字符",
+        "invalid": "密码含有无效字符"
+      },
+      "registerFailed": "注册失败",
+      "registerSucceed": "您的注册已成功提交，请等待管理员激活您的账号",
+      "required": "该项为必填项",
+      "username": {
+        "invalid": "无效的用户名",
+        "length": "用户名长度必须在 2-20 位之间",
+        "nospace": "用户名不能包含特殊符号和空格",
+        "start": "用户名不能以数字或者下划线开头"
+      }
+    }
+  },
+  "reviews": {
+    "accountMods": "账户修改审核请求",
+    "newAccountMods": "账户修改请求数量：",
+    "newRegistrations": "新用户注册请求数量：",
+    "newReviews": "审核请求数量：",
+    "registrations": "注册信息审核请求",
+    "reviewCount": "当前审核数量",
+    "reviewRequests": "一般审核请求",
+    "selectType": "选择审核类型",
+    "tip": "点击条目下的链接以查看审核内容",
+    "title": "审核列表"
+  },
+  "rules": {
+    "listTitle": "网站规则",
+    "loadFailed": "网站规则加载失败",
+    "noRulesFound": "没有规则信息",
+    "thisWebRulesUpdating": "网站规则仍在建设中，目前提供的规则仅供参考，可能与最新规定存在差异。   我们将尽快更新网站规则，请留意网站更新。",
+    "title": "网站规则与条款"
+  },
+  "site_messages": {
+    "batch_delete": "全部删除",
+    "batch_delete_not_supported": "暂时不支持删除站内信，该功能正在尽快开发中",
+    "batch_mark_as_read": "全部标为已读",
+    "batch_mark_as_unread": "全部标为未读",
+    "confirm_delete_all_title": "确认删除所有消息 ?",
+    "myMessagesTitle": "当前站内信",
+    "no_messages": "您目前没有任何消息",
+    "operation": {
+      "delete": "删除此消息",
+      "mark_as_read": "标为已读",
+      "mark_as_unread": "标为未读"
+    },
+    "read": "已读",
+    "sender_tip": "发送人",
+    "title": "我的消息",
+    "type": {
+      "announcement": "公告",
+      "comment": "评论",
+      "notification": "通知",
+      "system_information": "系统消息",
+      "user_message": "用户消息"
+    },
+    "unread": "未读"
+  },
+  "time": {
+    "time_delta": {
+      "days_ago": "{days} 天前",
+      "display_error": "时间显示错误",
+      "hours_ago": "{hours} 小时前",
+      "in_days": "{days} 天后",
+      "in_hours": "{hours} 小时后",
+      "in_less_than_one_second": "不到1分钟后",
+      "in_minutes": "{minutes} 分钟后",
+      "less_than_one_minute": "0 分钟前",
+      "minutes_ago": "{minutes} 分钟前",
+      "seconds_ago": "{seconds} 秒前"
+    },
+    "time_delta_detail": {
+      "days_hours_minutes_ago": "{days} 天 {hours} 小时 {minutes} 分钟前",
+      "hours_minutes_ago": "{hours} 小时 {minutes} 分钟前",
+      "in_days_hours_minutes": "{days} 天 {hours} 小时 {minutes} 分钟后",
+      "in_hours_minutes": "{hours} 小时 {minutes} 分钟后",
+      "in_minutes_seconds": "{minutes} 分钟 {seconds} 秒后",
+      "in_seconds": "{seconds} 秒后",
+      "minutes_seconds_ago": "{minutes} 分钟 {seconds} 秒前",
+      "seconds_ago": "{seconds} 秒前"
+    }
+  },
+  "welcome": {
+    "nav-items": {
+      "welcome-usr": "欢迎, {name} "
+    },
+    "welcome-msg": "欢迎来到 FriedParrot 的资源分享站!",
+    "welcome-sections": {
+      "explore-msg": "阅读博客, 获取资源, 以及探索更多",
+      "motto-msg": "增长见识, 学习技能, 开发创造力, 我们共同进步",
+      "recruit-msg": "加入博客平台, 创建空间, 与他人共享知识和资源",
+      "scroll-msg": "下拉获取更多"
+    }
+  }
+}

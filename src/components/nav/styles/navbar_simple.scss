@@ -1,0 +1,35 @@
+.nav-support-btn {
+    color: var(--navbar-special-color);
+    font-size: 16px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: var(--navbar-special-color);
+}
+
+.navbar-simple {
+    height: 65px;
+    width: 100%;
+    background-color: var(--navbar-color);
+    display: flex;
+    justify-self: center;
+    align-items: center; // vertical center
+}
+
+.navbar-simple .nav-icon {
+    font-size: 35px;
+}
+
+.navbar-inner-title {
+    color: var(--navbar-text-color);
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    flex-grow: 1;
+    text-align: center; // horizontal center
+    align-items: center; // vertical center
+}
+
+@media (min-width: 768px) {
+    .navbar-inner-title {
+        font-size: 30px;
+    }
+}

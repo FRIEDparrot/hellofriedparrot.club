@@ -1,0 +1,32 @@
+.left-sidebar-columns {
+    z-index: 100;
+}
+
+.left-sidebar-close-icon {
+    margin: 10px 5px;
+    width: 35px;
+    height: 35px;
+    background-color: inherit;
+}
+
+.sidebar-left-header {
+    height: 60px;
+    background-color: var(--sidebar-header-bg-color);
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.left-sidebar-title-container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-sidebar-title {
+    text-align: center;
+    margin-right: 25px;
+}

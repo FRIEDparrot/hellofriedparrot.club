@@ -1,0 +1,118 @@
+@import "@/styles/base.css";
+@import "@styles/main.css";
+@import "https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&family=Signika+Negative&display=swap";
+
+/** =============== Page Welcome CSS ===================== */
+#backgroundCanvas_welcomePage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+}
+
+#page-welcome {
+    position: relative;
+    height: 1000px;
+    margin: 0em 0em;
+    padding: 0em 0em;
+    text-align: center;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: bisque;
+    color: #d4d0d0;
+    opacity: 1;
+    overflow: hidden; /* avoid canvas overflow */
+    z-index: 0; /* default z-index */
+}
+
+#page-welcome .padding-bit {
+    height: 21px;
+}
+
+#page-welcome .title {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    padding-top: 290px;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 6px 6px 6px rgb(51, 48, 48);
+}
+
+#scroll-indicator-container {
+    position: fixed;
+    bottom: 0px; /* make sure it stays on top */
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-color: transparent;
+    z-index: 2; /* make sure it stays on top */
+    pointer-events: none; /* make sure the element under it clickable */
+    /* this ensures that the mouse events don't intercepted */
+}
+
+#scroll-indicator-container #scroll-indicator {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 100px;
+    background-color: transparent;
+    align-self: center;
+    pointer-events: auto; /* this can be clicked*/
+}
+
+#scroll-indicator-container #scroll-indicator :hover {
+    cursor: pointer;
+    background-color: rgba(255, 245, 238, 0.2);
+}
+
+#page-welcome .intro {
+    width: auto;
+    color: var(--intro-text-color);
+}
+
+#page-welcome .intro span {
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 15px 20px;
+    font-size: 25px;
+    line-height: 1.8;
+    font-weight: bold;
+    border-width: 2px;
+    border-radius: 1000px;
+    border-color: rgba(67, 67, 87, 0.562);
+    backdrop-filter: blur(13px) brightness(77%);
+}
+
+#page-welcome .bg-copyright {
+    color: rgba(218, 212, 212, 0.815);
+    font-size: 44px;
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-copyright .copyright {
+    margin-bottom: 0px;
+    line-height: 1;
+    text-align: top;
+    z-index: 5; /* make sure it stays on top */
+}
+
+.bg-copyright img {
+    height: 44px;
+    padding: 0px 5px 0px;
+    margin: 0px 0px 0px 5px;
+    opacity: 0.85;
+}
+
+.bg-copyright img:hover {
+    cursor: pointer;
+    background-color: rgba(255, 245, 238, 0.2);
+}

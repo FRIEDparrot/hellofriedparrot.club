@@ -1,0 +1,66 @@
+{
+    "compilerOptions": {
+        "types": ["vite/client"],
+        "allowJs": true,
+        "checkJs": true,
+        "baseUrl": ".", // This is essential to make relative imports work
+        "lib": ["ES2022", "dom"], // Ensure ES features like Promise are available
+        "target": "esnext",
+        "module": "esnext",
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "noImplicitAny": false,
+        "jsx": "preserve",
+        "outDir": "./dist",
+        "paths": {
+            // see vite.config.js for aliases
+            "@/*": ["src/*"],
+            "@assets/*": ["src/assets/*"],
+            "@anims/*": ["src/assets/anims/*"],
+            "@api/*": ["src/api/*"],
+            "@config/*": ["src/config/*"],
+            "@components/*": ["src/cmponents/*"],
+            "@fonts/*": ["src/assets/fonts/*"],
+            "@functions/*": ["src/utils/functions/*"],
+            "@interface/*": ["src/components/interface/*"],
+            "@imgs/*": ["src/assets/imgs/*"],
+            "@locales/*": ["src/locales/*"],
+            "@lang/*": ["src/locales/lang/*"],
+            "@layout/*": ["src/layout/*"],
+            "@middlewares/*": ["src/middlewares/*"],
+            "@pages/*": ["src/pages/*"],
+            "@pages/console/*": ["src/pages/console/*"],
+            "@pages/Home/*": ["src/pages/Home/*"] /* deeper nested pages */,
+            "@views/*": ["src/views/*"],
+            "@router/*": ["src/router/*"],
+            "@store/*": ["src/store/*"],
+            "@shared/*": ["src/shared/*"],
+            "@styles/*": ["src/styles/*"],
+            "@utils/*": ["src/utils/*"],
+            "@hooks/*": ["src/hooks/*"],
+            "@types/*": ["src/types/*"],
+            "@themes/*": ["src/themes/*"]
+        },
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/vite/types",
+            "./src/types", // confirm it to include src/types for CDN usage
+            "./node_modules/element-plus"
+        ]
+    },
+    "vueCompilerOptions": {
+        "target": 3.5 // use Vue 3.5 as the target version
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx",
+        "src/types/**/*.d.ts",
+        "src/**/*.vue"
+    ],
+    "exclude": ["node_modules", "dist", "backup"] // exclude node_modules and dist for production build
+}

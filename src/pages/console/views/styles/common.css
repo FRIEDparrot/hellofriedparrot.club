@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import "@styles/base.css";
+
+.console-content-page {
+    padding: 20px 10px 40px 20px;
+    --table-border-color: gray;
+    --brief-card-background-color: var(--common-card-color);
+}
+
+.console-table-card {
+    border: 1px solid var(--table-border-color);
+    border-radius: 5px;
+}

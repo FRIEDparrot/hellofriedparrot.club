@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import '@styles/base.css';
+@import '@styles/main.css';
+
+.rules-list-item {
+    --icon-width: 58px;
+    margin: 6px 4px;
+    width: var(--icon-width);
+    height: var(--icon-width);
+    border-radius: 10px;
+    color: var(--sidebar-icon-color);
+}
+
+.markdown-body {
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.rules-footer-bar-container {
+    width: 100%;
+}
+
+@media (max-width: 1400px) {
+    .rules-footer-bar-container {
+        max-width: calc(100% - 66px);
+    }
+}
+
+.rules-content-container {
+    padding: 25px 60px 30px 60px;
+}
+
+@media (max-width: 768px) {
+    .rules-content-container {
+        padding: 25px 20px 30px 20px;
+    }
+}

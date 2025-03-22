@@ -1,0 +1,54 @@
+.interesting-tag-panel-simple {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .interested-tags,
+    .recommended-tags {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 12px;
+        margin-bottom: 10px;
+        .interested-tag-container {
+            max-width: 70vw;
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+            overflow: hidden;
+        }
+    }
+
+    .interested-tag-header-container,
+    .recommended-tag-header-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+
+    .interest-tag {
+        font-size: 0.9rem;
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .manager-tag-add-button-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        max-width: 100%;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .manager-tag-add-button {
+            vertical-align: center;
+        }
+    }
+}

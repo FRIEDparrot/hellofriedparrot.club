@@ -1,0 +1,166 @@
+@import "@styles/base.css";
+#police-icon {
+  height: 1em;
+  align-self: bottom;
+}
+
+.footer-bar {
+  display: block;
+  width: 100%;
+  height: 300px;
+  background-color: var(--footerbar-color);
+  color: var(--text-color);
+  padding: 0em 0em 1em 0em;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.footer-columns {
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* space-between */
+  position: relative;
+  height: 200px;
+}
+
+.footer-column {
+  width: 25% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--footerbar-text-color);
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.footer-column-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.footer-column p {
+  margin-top: 0.1em;
+  margin-bottom: 0.6em;
+}
+
+.footer-column p:hover {
+  color: var(--footerbar-text-hover-color);
+  cursor: pointer;
+}
+
+.footer-claim {
+  position: absolute;
+  width: 300px;
+  right: 0;
+  bottom: 30px;
+  text-align: center;
+}
+
+.footer-copyright {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  margin: 5px 20px;
+}
+
+.footer-icon-group {
+  position: absolute;
+  bottom: 30px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 614px) {
+  .footer-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto !important;
+  }
+
+  .footer-columns {
+    width: 100%;
+    height: auto !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-column {
+    position: relative;
+    flex: 1 0 180px;
+    /* flex-grow flex-shrink flex-basis */
+  }
+
+  .footer-copyright {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 10px 0px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-icon-group {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .footer-claim {
+    position: relative;
+    width: 100%;
+  }
+}
+@media (min-width: 613px) {
+  .footer-bar {
+    height: 340px;
+  }
+
+  .footer-icon-group {
+    position: relative;
+    left: 43%;
+    margin-top: 30px;
+  }
+
+  .footer-columns {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .footer-columns {
+    width: max(80%, 768px);
+  }
+
+  .footer-icon-group {
+    position: absolute;
+    bottom: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-columns {
+    width: min(1150px, 80%);
+  }
+
+  .footer-icon-group {
+    left: 47%;
+  }
+}

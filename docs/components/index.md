@@ -1,0 +1,42 @@
+# Components Documentation
+
+## buttons
+  - [DarkModeToggleBtn](DarkModeToggleBtn.md)
+  - [HomeBtn](HomeBtn.md)
+  - [MenuBtn](MenuBtn.md)
+  - [ParrotLogoBtn](ParrotLogoBtn.md)
+  - [LeftSidebarToggleBtn](LeftSidebarToggleBtn.md)
+  - [TranslateBtn](TranslateBtn.md)
+## footer
+  - [footerbar_common](footerbar_common.md)
+## lists
+  - [ClickIconList](ClickIconList.md)
+  - [compactFolderList](compactFolderList.md)
+  - [dropDownList](dropDownList.md)
+  - [foldList](foldList.md)
+## markdown
+  - [markdownFileListView](markdownFileListView.md)
+  - [MarkdownOutline](MarkdownOutline.md)
+## nav
+  - [NavbarSimple](NavbarSimple.md)
+  - [navbar_welcome](navbar_welcome.md)
+## overlays
+  - [SearchOverlayGlobal](SearchOverlayGlobal.md)
+  - [TagChooseOverlay](TagChooseOverlay.md)
+## popups
+  - [confirmDialog](confirmDialog.md)
+  - [CookiePrompt](CookiePrompt.md)
+  - [FloatingAlert](FloatingAlert.md)
+  - [NewTagPrompt](NewTagPrompt.md)
+## sidebar
+  - [LeftSideBarBtnContent](LeftSideBarBtnContent.md)
+  - [LeftSidebarBtnExpand](LeftSidebarBtnExpand.md)
+  - [LeftSidebarBtnOnly](LeftSidebarBtnOnly.md)
+  - [LeftSidebarColumns](LeftSidebarColumns.md)
+  - [rightSidebarProfile](rightSidebarProfile.md)
+## speed_dials
+  - [CreationSpeedDial](CreationSpeedDial.md)
+## user
+  - [navUserAvatarPrompt](navUserAvatarPrompt.md)
+  - [UserAvatar](UserAvatar.md)
+  - [userPanelMenu](userPanelMenu.md)

@@ -1,0 +1,43 @@
+@import '@styles/base.css';
+
+.left-sidebar-drawer {
+    background-color: var(--sidebar-iconbar-color);
+}
+
+.left-btn-content-sidebar {
+    --icon-container-width: 66px;
+    --content-width: 300px;
+}
+
+.left-sidebar-icon-container {
+    position: absolute;
+    display: block;
+    height: 100%;
+    background-color: var(--sidebar-iconbar-color);
+}
+
+.left-siderbar-content-container {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    width: var(--content-width);
+    background-color: var(--sidebar-list-bg-color);
+}
+
+/**
+ * Description 
+ * @important : for better consistency, for all icons (list item) in the sidebar,
+ *              use external css file to set same style for icons are better.
+ *              see example in pages/rules/rules_Index.scss
+ * @param {any} --icon-width
+ * @returns {any}
+ */
+.left-sidebar-icon-container .left-sidebar-icon {
+    --icon-width: 90%;
+    --icon-height: 56px;
+    margin: 6px 2px;
+    width: var(--icon-width);
+    height: var(--icon-height);
+    justify-content: center;
+    border-radius: 10px;
+}

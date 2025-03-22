@@ -1,0 +1,1 @@
+function n(e,a=10){return{headers:e,selected:[],itemsPerPage:10,items:[],itemsLength:0,sortBy:[],loading:!1,page:1,pageText:"0-0 of 0"}}function m(e){const{pageNum:a,itemsPerPage:r,orderBy:o,order:d,searchKey:s,search:i}=e,t={start:(a-1)*r,cnt:r,filters:{},order_by:o??void 0,order:d??void 0};return t.filters!==void 0&&s&&i&&(t.filters[s]=i),t}export{n as a,m};

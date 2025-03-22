@@ -1,0 +1,53 @@
+/** adjust the margin of the prepend icon */
+.outline-prepend-icon {
+  margin-right: 5px;
+  /* adjust the margin of the icon */
+}
+
+.markdown-headings {
+  overflow-y: auto;
+}
+
+.markdown-outline-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.markdown-outline-title .headline {
+  font-size: larger;
+}
+
+.outline-item {
+  position: relative;
+}
+.outline-item .outline-prepend-icon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+}
+.outline-item .outline-level {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #999;
+}
+.outline-item:hover .outline-level {
+  color: var(--text-color-smooth);
+  transition: color 0.3s ease-in-out;
+}
+
+.outline-title {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  color: var(--text-color-smooth);
+}
+.outline-title .outline-title-text {
+  max-width: 100%;
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

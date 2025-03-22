@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="36.895 56.454 173.255 147.633">
+  <circle style="stroke: rgb(0, 0, 0); fill: transparent; stroke-width: 1.99993px;" transform="matrix(1, 0, 0, 1.000069, -267.310922, -120.988941)" cx="392.311" cy="250.972" r="72.495"/>
+  <circle style="stroke: rgb(0, 0, 0); stroke-width: 4.67983px; fill: transparent; stroke-linecap: round;" transform="matrix(0.431833, 0, 0, 0.422899, -7.449789, -24.225023)" cx="306" cy="365" r="145"/>
+  <ellipse style="stroke: transparent; stroke-width: 0px; stroke-linecap: round; stroke-linejoin: round;" cx="159.883" cy="107.385" rx="20.955" ry="21.756"/>
+  <circle style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: white;" transform="matrix(0.928584, 0, 0, 0.88353, -125.207991, -91.206198)" cx="319" cy="217.5" r="10"/>
+  <path style="stroke: rgb(0, 0, 0); fill: transparent; stroke-width: 2px; stroke-miterlimit: 1; stroke-linecap: round; fill-opacity: 0; transform-box: fill-box; transform-origin: 50% 50%;" d="M 110.568 75.204 C 108.634 84.574 105.309 93.122 104.829 102.674 C 103.041 138.327 124.604 159.67 155.142 168.662 C 160.468 170.23 165.892 172.213 175.684 172.592" transform="matrix(0.965926, 0.258819, -0.258819, 0.965926, -0.287747, -0.339971)"/>
+  <path style="stroke: rgb(0, 0, 0); stroke-miterlimit: 1; stroke-width: 2px; fill: transparent; stroke-linecap: round; fill-opacity: 0; transform-box: fill-box; transform-origin: 50% 50%;" d="M 105.672 112.516 C 94.688 116.193 86.457 120.239 83.259 121.729 C 80.061 123.221 70.584 128.176 64.382 131.779" transform="matrix(0.965926, 0.258819, -0.258819, 0.965926, -0.000001, 0)"/>
+  <path style="stroke: rgb(0, 0, 0); fill: transparent; stroke-linecap: round; stroke-miterlimit: 1; stroke-width: 2px; fill-opacity: 0; transform-box: fill-box; transform-origin: 50% 50%;" d="M 77.855 127.866 C 77.855 127.866 86.665 136.168 91.126 139.131 C 96.466 142.678 104.15 145.632 113.81 145.909 C 118.706 146.049 122.078 144.963 122.078 144.963" transform="matrix(0.965926, 0.258819, -0.258819, 0.965926, -0.074146, -0.125964)"/>
+</svg>

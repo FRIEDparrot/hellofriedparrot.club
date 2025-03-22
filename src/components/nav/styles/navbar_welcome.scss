@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@import '@/styles/base.css';
+@import '@/styles/main.css';
+
+.force-display {
+    display: flex !important;
+}
+
+/* This file is used to style the navbar of the website in index.html page */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*  align in vertical direction */
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: var(--navbar-color);
+    color: var(--text-color);
+    /*justify-content: center;*/
+    position: relative;
+}
+
+.navbar > * {
+    max-height: 60px;
+}
+
+.navbar .nav-interactiveButton:hover {
+    background-color: var(--navbar-item-color);
+    cursor: pointer;
+}
+
+.navbar .sidebar-toggle-left,
+.navbar .sidebar-toggle-right {
+    height: 90%;
+    width: 50px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.navbar #nav-padding-left {
+    width: calc(0.4 * (100vw - 900px) / 10 * 8);
+    background-color: transparent;
+    height: 100%;
+}
+
+.navbar #nav-padding-right {
+    width: calc(0.4 * (100vw - 900px) / 10 * 2);
+    background-color: transparent;
+    height: 100%;
+}
+
+.navbar #nav-title {
+    height: 100%;
+    width: auto;
+    padding-left: 10px;
+
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+    color: var(--navbar-text-color);
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1; /* make it auto grow */
+}
+
+.nav-logo-container {
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.nav-logo-img-container {
+    height: 85%;
+    display: inline-block;
+}
+
+@media (max-width: 1200px) {
+    .navbar #nav-title {
+        display: flex;
+    }
+}
+
+/* set it to cover item of elem-display-maxwidth */
+@media (min-width: 1200px) {
+    /* .elem-display-superMaxWidth  */
+    .nav-logo-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+
+    #nav-items-topbar {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 1px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: auto;
+    }
+    #nav-items-topbar .nav-item {
+        height: 100%;
+        width: 20%;
+        position: relative;
+        text-align: center;
+    }
+    #nav-items-topbar {
+        width: 50%;
+    }
+}
+
+.nav-arrow {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 1px;
+    transition: transform 0.3s ease;
+}
+
+.nav-arrow.rotate-90 {
+    transform: rotate(90deg); /* 旋转 90 度 */
+}
+
+/* [data-theme="light"]  */
+.nav-user-panel {
+    height: 100%;
+    margin-left: 0px;
+    display: flex; /* display as a grid */
+    justify-content: end; /* align from right */
+    align-items: center; /* align in vertical direction */
+    font-family: 'Quicksand', sans-serif;
+    flex-grow: 1; /* make it grow */
+}
+
+.nav-user-panel .nav-user-welcome-message {
+    color: var(--navbar-text-color);
+    text-align: center;
+    width: auto !important;
+}
+
+.nav-items-btn {
+    max-height: 100%;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+}

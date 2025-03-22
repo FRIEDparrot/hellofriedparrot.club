@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="213.64 207.115 55.376 54.189">
+  <polygon style="fill: rgb(243, 255, 0); stroke: rgb(228, 228, 143); stroke-width: 0px;" points="218.5780029296875 207.33599853515625 268.7090148925781 258.385986328125 268.6 233.4 243.60000610351562 207.3000030517578"/>
+  <path style="fill: rgb(243, 255, 0); stroke: rgb(228, 228, 143); stroke-width: 0.5px;" d="M 218.558 207.668 L 214.495 210.824 L 221.653 210.841 L 218.558 207.668 Z"/>
+  <polygon style="fill: rgb(243, 255, 0); stroke: rgb(228, 228, 143); stroke-width: 0.5px; transform-box: fill-box; transform-origin: 50% 50%;" points="267.116 256.311 263.907 259.484 269.559 259.501" transform="matrix(0, 1, -1, 0, 0, 0)"/>
+  <line style="fill: rgb(216, 216, 216); stroke-width: 0.5px; stroke: rgb(228, 228, 143);" x1="221.571" y1="210.752" x2="265.214" y2="255.18"/>
+  <line style="fill: rgb(216, 216, 216); stroke-width: 0.5px; stroke: rgb(228, 228, 143);" x1="243.85" y1="207.279" x2="268.541" y2="233.454"/>
+  <line style="fill: rgb(216, 216, 216); stroke-width: 0.5px; stroke: rgb(228, 228, 143); transform-box: fill-box; transform-origin: 50% 50%;" x1="268.612" y1="258.342" x2="268.619" y2="233.456" transform="matrix(-1, 0, 0, -1, 0.00003, 0.000001)"/>
+  <line style="fill: rgb(216, 216, 216); stroke-width: 0.5px; stroke: rgb(228, 228, 143); transform-origin: 231.311px 207.484px;" x1="231.22" y1="194.797" x2="231.432" y2="220.171" transform="matrix(0, 1, -1, 0, 0.000002, 0.000012)"/>
+</svg>
