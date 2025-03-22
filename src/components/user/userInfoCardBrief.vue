@@ -3,8 +3,14 @@
     <div class="user-profile-header-container">
       <div class="user-profile-column-avatar-border">
         <v-avatar class="user-avatar">
-          <!-- <userAvatar width="100%" /> -->
-          <img :src="currInfo.avatar" width="100%" height="100%" alt="Avatar" />
+          <img
+            v-if="currInfo.avatar"
+            :src="currInfo.avatar"
+            width="100%"
+            height="100%"
+            alt="Avatar"
+          />
+          <defaultAvatar width="100%" height="100%"></defaultAvatar>
         </v-avatar>
       </div>
       <div class="user-profile-column-name-container">

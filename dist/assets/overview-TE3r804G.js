@@ -1,0 +1,1 @@
+import{d as o,_ as r,c as n,o as t,b as s}from"./index-DhQyue9E.js";const a=o({name:"DraftsOverview"});function l(c,e,f,i,p,d){return t(),n("div",null,e[0]||(e[0]=[s("h1",null,"Drafts",-1),s("p",null,"This is where you can see all your drafts.",-1)]))}const _=r(a,[["render",l]]);export{_ as default};

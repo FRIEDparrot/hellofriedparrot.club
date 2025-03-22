@@ -1,5 +1,5 @@
 import { defineComponent, PropType, ref } from 'vue';
-import userAvatar from '@/components/user/userAvatar.vue';
+import defaultAvatar from '@imgs/ui/defaultAvatar.vue';
 import store from '@/store';
 
 export interface IuserBriefInformation {
@@ -14,7 +14,7 @@ export interface IuserBriefInformation {
 export default defineComponent({
     name: 'UserInfoCardBrief',
     components: {
-        userAvatar,
+        defaultAvatar,
     },
     props: {
         useSelfProfile: {

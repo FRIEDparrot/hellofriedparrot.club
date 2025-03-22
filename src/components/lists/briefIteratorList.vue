@@ -24,14 +24,17 @@
                   <div class="brief-iterator-list-item-title-text">
                     {{ item.raw.title }}
                   </div>
-                  <div class="status-tag-group ml-2" v-if="item.raw.status">
+                  <div
+                    class="status-tag-group ml-2"
+                    v-if="item.raw.status !== undefined"
+                  >
                     <el-tag type="success" v-if="item.raw.status === 2">
                       {{ $t('commmon.briefDataIterator.status.published') }}
                     </el-tag>
                     <el-tag type="warning" v-else-if="item.raw.status === 1">
                       {{ $t('commmon.briefDataIterator.status.reviewing') }}
                     </el-tag>
-                    <el-tag type="danger" v-else>
+                    <el-tag type="danger" v-else-if="item.raw.status === 0">
                       {{ $t('commmon.briefDataIterator.status.rejected') }}
                     </el-tag>
                   </div>

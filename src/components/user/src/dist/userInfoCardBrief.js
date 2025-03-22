@@ -1,12 +1,12 @@
 "use strict";
 exports.__esModule = true;
 var vue_1 = require("vue");
-var userAvatar_vue_1 = require("@/components/user/userAvatar.vue");
+var defaultAvatar_vue_1 = require("@imgs/ui/defaultAvatar.vue");
 var store_1 = require("@/store");
 exports["default"] = vue_1.defineComponent({
     name: 'UserInfoCardBrief',
     components: {
-        userAvatar: userAvatar_vue_1["default"]
+        defaultAvatar: defaultAvatar_vue_1["default"]
     },
     props: {
         useSelfProfile: {
