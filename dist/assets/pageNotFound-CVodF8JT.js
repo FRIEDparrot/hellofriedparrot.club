@@ -1,1 +1,0 @@
-import{_ as t,c as n,o as r,b as o}from"./index-DA8DpHHr.js";const s={},a={class:"error-page"};function c(l,e){return r(),n("div",a,e[0]||(e[0]=[o("h1",null,"404",-1),o("h2",null,"Page Not Found",-1)]))}const d=t(s,[["render",c]]);export{d as default};

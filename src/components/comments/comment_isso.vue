@@ -13,8 +13,8 @@ export default defineComponent({
   mounted() {
     // import isso script element
     const script = document.createElement('script');
-    script.dataset.isso = 'http://localhost:9000';
-    script.src = 'http://localhost:9000/js/embed.min.js';
+    script.dataset.isso = 'http://127.0.0.1:9000/comments/';
+    script.src = 'http://127.0.0.1:9000/comments/js/embed.min.js';
     document.body.appendChild(script);
   },
 });
