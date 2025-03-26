@@ -104,6 +104,12 @@ pnpm docs:generate
 
 # Launch docs server
 pnpm docs:dev
+
+# build production distribution 
+npx vite build
+
+# preview production version
+npx vite preview
 ```
 
 ## Contribution 🤝
