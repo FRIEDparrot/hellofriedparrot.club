@@ -3,10 +3,12 @@
 [![License](https://img.shields.io/badge/License-Apache2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 [中文](readme_zh.md) | English
-![https://hellofriedparrot.club/assets/parrot_icon_main-DNjced6y.png|100]
+
 😆 Frontend implementation of my open-source personal blog platform (client-side of full-stack project)
 
 🌍 My Website : [helloFriedparrot.club](https://helloFriedparrot.club) - Register an account and start your blogging journey!
+![[100]](https://hellofriedparrot.club/assets/parrot_icon_main-DNjced6y.png)
+
 
 > ⚠️ Project Notes  
 > 1. Full-stack application with frontend code open-sourced  
