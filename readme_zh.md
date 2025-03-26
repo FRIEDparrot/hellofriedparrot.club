@@ -8,6 +8,8 @@
 
 🌍 立即体验：[helloFriedparrot.club](https://helloFriedparrot.club) 注册账号，开启您的博客创作之旅！
 
+![[100]](https://hellofriedparrot.club/assets/parrot_icon_main-DNjced6y.png)
+
 > ⚠️ 项目说明  
 > 1.  本项目为全栈应用，仅开源前端代码 
 > 2.  后端服务部分基于 flask + mysql, 该部分为不开源  
