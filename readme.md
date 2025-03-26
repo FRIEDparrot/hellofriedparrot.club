@@ -50,7 +50,6 @@
 ### User Experience
 - ⚡ Performance Optimizations
   - Code splitting & lazy loading
-  - Smooth page transitions
   - Efficient resource loading
 - 🌍 Internationalization
   - Seamless EN/CN switching
