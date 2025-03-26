@@ -6,7 +6,7 @@
 
 😆 Frontend implementation of my open-source personal blog platform (client-side of full-stack project)
 
-🌍 Live demo: [helloFriedparrot.club](https://helloFriedparrot.club) - Register an account and start your blogging journey!
+🌍 My Website : [helloFriedparrot.club](https://helloFriedparrot.club) - Register an account and start your blogging journey!
 
 > ⚠️ Project Notes  
 > 1. Full-stack application with frontend code open-sourced  
