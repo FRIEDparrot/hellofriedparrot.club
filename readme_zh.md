@@ -104,6 +104,12 @@ pnpm docs:generate
 
 # 启动文档服务器
 pnpm docs:dev
+
+# 构建生产版本
+npx vite build
+
+# 预览生产版本
+npx vite preview
 ```
 
 ## 贡献指南 🤝
