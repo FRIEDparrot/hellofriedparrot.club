@@ -7,6 +7,7 @@
 😆 Frontend implementation of my open-source personal blog platform (client-side of full-stack project)
 
 🌍 My Website : [helloFriedparrot.club](https://helloFriedparrot.club) - Register an account and start your blogging journey!
+
 ![[100]](https://hellofriedparrot.club/assets/parrot_icon_main-DNjced6y.png)
 
 
