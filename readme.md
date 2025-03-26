@@ -39,7 +39,7 @@
 ### Content Creation
 - ✍️ Live Markdown Editor
   - Full math formula support (LaTeX syntax)
-  - Smart media embedding (images/videos)
+  - Smart media embedding (images support currently)
   - Extensible alert containers
   - Future theme switching capability
 - 🎨 Theme System
